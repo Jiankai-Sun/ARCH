@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="Medium_Long_3Prong_Purple">
+    <link name="Medium_Long_3Prong_Purple">
+        <visual>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Medium_Long_3Prong_Purple.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Purple">
+              <color rgba="0.6 0.0 1.0 0.0"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Medium_Long_3Prong_Purple.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <sdf resolution="512"/>
+        </collision>
+    </link>
+</robot>

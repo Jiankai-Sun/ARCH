@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="Small_Short_Arch_JeansBlue">
+    <link name="Small_Short_Arch_JeansBlue">
+        <visual>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Small_Short_Arch_JeansBlue.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="JeansBlue">
+              <color rgba="0.65 0.75 0.95 0"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Small_Short_Arch_JeansBlue.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <sdf resolution="512"/>
+        </collision>
+    </link>
+</robot>

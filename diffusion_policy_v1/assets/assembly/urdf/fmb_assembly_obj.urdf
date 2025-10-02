@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="fmb_assembly_obj">
+    <link name="fmb_assembly_obj">
+        <visual>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/fmb_assembly_obj.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/fmb_assembly_obj.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <sdf resolution="512"/>
+        </collision>
+    </link>
+</robot>

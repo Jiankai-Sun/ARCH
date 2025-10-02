@@ -1,0 +1,41 @@
+# See schema in factory_schema_config_env.py for descriptions of common parameters.
+
+defaults:
+    - FactoryBase
+    - _self_
+    - /factory_schema_config_env
+
+sim:
+    disable_franka_collisions: False
+
+env:
+    env_name: 'AssemblyEnv'
+
+    desired_subassemblies: [#'assembly',
+                            'assembly_Large_Board_Green_Large_Long_3Prong_JeansBlue',
+#                            'assembly_Medium_Board_DarkBlue_obj_1',
+#                            'assembly_Small_Board_Red_Small_Long_3Prong_Green',
+                            ]
+    env_spacing: 1.0
+
+    plug_lateral_offset: -0.20  # Y-axis offset of plug before initial reset to prevent initial interpenetration with socket
+    plug_vertical_offset: -0.19 # 0.1
+    socket_lateral_offset: 0.16  # Y-axis offset of plug before initial reset to prevent initial interpenetration with socket
+    socket_vertical_offset: -0.14 # 0.1
+    fixture_lateral_offset: -0.07
+    fixture_vertical_offset: -0.29 # -0.17
+    camera_img_width: 96
+    camera_img_height: 96
+
+    # Subassembly options:
+    # {round_peg_hole_4mm_tight, round_peg_hole_4mm_loose,
+    # round_peg_hole_8mm_tight, round_peg_hole_8mm_loose,
+    # round_peg_hole_12mm_tight, round_peg_hole_12mm_loose,
+    # round_peg_hole_16mm_tight, round_peg_hole_16mm_loose,
+    # rectangular_peg_hole_4mm_tight, rectangular_peg_hole_4mm_loose,
+    # rectangular_peg_hole_8mm_tight, rectangular_peg_hole_8mm_loose,
+    # rectangular_peg_hole_12mm_tight, rectangular_peg_hole_12mm_loose,
+    # rectangular_peg_hole_16mm_tight, rectangular_peg_hole_16mm_loose,
+    # bnc, dsub, usb}
+    #
+    # NOTE: BNC, D-sub, and USB are currently unavailable while we await approval from manufacturers.

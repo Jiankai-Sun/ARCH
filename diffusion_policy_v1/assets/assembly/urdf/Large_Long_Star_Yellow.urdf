@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="Large_Long_Star_Yellow">
+    <link name="Large_Long_Star_Yellow">
+        <visual>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Large_Long_Star_Yellow.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Yellow">
+              <color rgba="0.22 0.21 0.21 0.0"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Large_Long_Star_Yellow.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <sdf resolution="512"/>
+        </collision>
+    </link>
+</robot>

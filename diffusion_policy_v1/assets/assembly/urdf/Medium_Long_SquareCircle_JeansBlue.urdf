@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="Medium_Long_SquareCircle_JeansBlue">
+    <link name="Medium_Long_SquareCircle_JeansBlue">
+        <visual>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Medium_Long_SquareCircle_JeansBlue.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="JeansBlue">
+              <color rgba="0.65 0.75 0.95 0"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Medium_Long_SquareCircle_JeansBlue.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <sdf resolution="512"/>
+        </collision>
+    </link>
+</robot>

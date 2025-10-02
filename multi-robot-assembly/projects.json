@@ -1,0 +1,10 @@
+{
+   "current" : "Sample",
+   "projects" : [
+      {
+         "folder" : "myprojects/Sample/",
+         "is_project" : true,
+         "name" : "Sample"
+      }
+   ]
+}

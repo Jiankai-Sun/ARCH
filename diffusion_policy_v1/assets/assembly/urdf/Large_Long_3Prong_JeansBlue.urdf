@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<robot name="Large_Long_3Prong_JeansBlue">
+    <link name="Large_Long_3Prong_JeansBlue">
+        <visual>
+            <origin xyz="0 0 -0.01" rpy="0 0 0" />
+            <!-- <origin xyz="0 0 0.1" rpy="0 1.57 0" /> -->
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Large_Long_3Prong_JeansBlue.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="JeansBlue">
+              <color rgba="0.65 0.75 0.95 0"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Large_Long_3Prong_JeansBlue.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <sdf resolution="512"/>
+        </collision>
+    </link>
+</robot>

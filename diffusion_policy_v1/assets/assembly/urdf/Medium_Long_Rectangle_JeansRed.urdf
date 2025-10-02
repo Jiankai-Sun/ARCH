@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="Medium_Long_Rectangle_JeansRed">
+    <link name="Medium_Long_Rectangle_JeansRed">
+        <visual>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Medium_Long_Rectangle_JeansRed.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="JeansRed">
+              <color rgba="0.91 0.6 0.6 0"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Medium_Long_Rectangle_JeansRed.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <sdf resolution="512"/>
+        </collision>
+    </link>
+</robot>
