@@ -11,8 +11,6 @@ import argparse
 import wandb
 from omni.isaac.lab.app import AppLauncher
 import os
-# os.environ["WANDB_API_KEY"] = "b00b2711e75723b6df804b383842ad17c46a84b0"
-os.environ["WANDB_API_KEY"] = "13e0a9b2e540ade54f71f5d5ab43038658f2ddfa"
 # add argparse arguments
 parser = argparse.ArgumentParser(description="Train an RL agent with RL-Games.")
 parser.add_argument("--video", action="store_true", default=False, help="Record videos during training.")
