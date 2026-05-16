@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<robot name="Small_Board_Red">
+    <link name="Small_Board_Red">
+        <visual>
+            <origin xyz="0 0 10" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Small_Board_Red.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Red">
+              <color rgba="1.0 0 0 0"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Small_Board_Red.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <sdf resolution="512"/>
+        </collision>
+    </link>
+    <link name="world" />
+    <joint name="world_joint"  type="fixed">
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <parent link="world"/>
+        <child link="Small_Board_Red"/>
+    </joint>
+</robot>

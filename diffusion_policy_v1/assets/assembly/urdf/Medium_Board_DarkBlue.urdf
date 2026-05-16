@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<robot name="Medium_Board_DarkBlue">
+    <link name="Medium_Board_DarkBlue">
+        <visual>
+            <origin xyz="0 0 10" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Medium_Board_DarkBlue.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="DarkBlue">
+              <color rgba="0 0 1.0 0"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Medium_Board_DarkBlue.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <sdf resolution="512"/>
+        </collision>
+    </link>
+    <link name="world" />
+    <joint name="world_joint"  type="fixed">
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <parent link="world"/>
+        <child link="Medium_Board_DarkBlue"/>
+    </joint>
+</robot>

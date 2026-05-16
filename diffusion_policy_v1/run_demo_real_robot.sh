@@ -1,0 +1,1 @@
+python demo_real_robot.py -o data/demo_pusht_real --robot_ip 192.168.1.28

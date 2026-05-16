@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="Small_Long_Circle_Purple">
+    <link name="Small_Long_Circle_Purple">
+        <visual>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Small_Long_Circle_Purple.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Purple">
+              <color rgba="0.6 0.0 1.0 0.0"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Small_Long_Circle_Purple.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <sdf resolution="512"/>
+        </collision>
+    </link>
+</robot>

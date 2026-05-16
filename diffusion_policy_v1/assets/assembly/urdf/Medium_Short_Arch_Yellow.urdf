@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="Medium_Short_Arch_Yellow">
+    <link name="Medium_Short_Arch_Yellow">
+        <visual>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Medium_Short_Arch_Yellow.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Yellow">
+              <color rgba="0.22 0.21 0.21 0.0"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Medium_Short_Arch_Yellow.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <sdf resolution="512"/>
+        </collision>
+    </link>
+</robot>

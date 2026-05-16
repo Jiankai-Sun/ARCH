@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="Small_Long_Arch_Red">
+    <link name="Small_Long_Arch_Red">
+        <visual>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Small_Long_Arch_Red.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Red">
+              <color rgba="1.0 0 0 0"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/Small_Long_Arch_Red.obj" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <sdf resolution="512"/>
+        </collision>
+    </link>
+</robot>
